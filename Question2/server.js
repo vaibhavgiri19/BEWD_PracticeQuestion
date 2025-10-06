@@ -48,6 +48,8 @@ app.post("/api/register", (req, res) => {
   res.json({ message: "Registration successful" });
 });
 
+
+
 // --- Login ---
 app.post("/api/login", (req, res) => {
   const { email, password } = req.body;
